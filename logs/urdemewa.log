@@ -1,0 +1,21 @@
+04/12/24 19:56:55 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): raw.githubusercontent.com:443
+04/12/24 19:56:55 - DEBUG - urllib3.connectionpool - [_make_request]: https://raw.githubusercontent.com:443 "GET /rdavydov/Twitch-Channel-Points-Miner-v2/master/TwitchChannelPointsMiner/__init__.py HTTP/11" 200 125
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__init__]: Twitch Channel Points Miner v2-1.9.7 (fork by rdavydov)
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__init__]: https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__init__]: You are running version 1.9.7 of this script
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__init__]: The latest version on GitHub is 1.9.9
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Start session: 'f597db8f-bb68-4d01-ae19-80209f496eb3'
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: You'll have to login to Twitch!
+04/12/24 19:56:55 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Trying the TV login method..
+04/12/24 19:56:55 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): id.twitch.tv:443
+04/12/24 19:56:56 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/device HTTP/11" 200 164
+04/12/24 19:56:56 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Open https://www.twitch.tv/activate
+04/12/24 19:56:56 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: and enter this code: DJLGDNHY
+04/12/24 19:56:56 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Hurry up! It will expire in 30 minutes!
+04/12/24 19:57:01 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/token HTTP/11" 400 49
+04/12/24 19:57:06 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/token HTTP/11" 400 49
+04/12/24 19:57:11 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/token HTTP/11" 400 49
+04/12/24 19:57:17 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/token HTTP/11" 200 248
+04/12/24 19:57:17 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): gql.twitch.tv:443
+04/12/24 19:57:17 - DEBUG - urllib3.connectionpool - [_make_request]: https://gql.twitch.tv:443 "POST /gql HTTP/11" 200 204
+04/12/24 19:57:17 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [save_cookies]: Saving cookies to your computer..
